@@ -1,0 +1,50 @@
+.freeBeta,
+.signUp {
+  position: relative;
+  letter-spacing: -0.03em;
+  font-weight: 600;
+}
+.freeBeta {
+  height: 18px;
+  display: inline-block;
+  background: rgba(255, 255, 255, 0.11);
+  border-radius: var(--br-9xs);
+  padding: var(--padding-10xs) var(--padding-9xs);
+}
+.signUpParent,
+.tryforFree {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.signUpParent {
+  flex-direction: row;
+  gap: var(--gap-8xs);
+  pointer-events: none;
+}
+.tryforFree {
+  text-decoration: none;
+  width: 172px;
+  height: 46px;
+  border-radius: var(--br-5xl);
+  background-color: var(--studio-darkmode-maincta-457eff);
+  flex-direction: column;
+  padding: var(--padding-sm) var(--padding-xl);
+  box-sizing: border-box;
+  text-align: center;
+  font-size: var(--font-size-sm);
+  color: var(--studio-darkmode-allwhite-ffffff);
+  font-family: var(--font-source-code-pro);
+}
+.tryforFree:hover {
+  background-color: var(--color-mediumslateblue-100);
+  cursor: pointer;
+  transition: 0.25s;
+}
+@media screen and (max-width: 420px) {
+  .tryforFree {
+    padding: var(--padding-2xs) var(--padding-xs);
+    box-sizing: border-box;
+    width: auto;
+  }
+}

@@ -1,0 +1,194 @@
+.guestAuthorEntry,
+.image34Icon {
+  align-self: stretch;
+  position: relative;
+}
+.guestAuthorEntry {
+  letter-spacing: 0.02em;
+  font-weight: 600;
+}
+.image34Icon {
+  max-width: 100%;
+  overflow: hidden;
+  height: 305px;
+  flex-shrink: 0;
+  object-fit: cover;
+}
+.image1 {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.locofyEvents {
+  position: relative;
+  text-transform: uppercase;
+  font-weight: 600;
+}
+.minRead {
+  height: 18px;
+  position: relative;
+  letter-spacing: -0.04em;
+  display: inline-block;
+}
+.names,
+.time {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+}
+.time {
+  border-radius: var(--br-7xs);
+  background-color: var(--color-whitesmoke);
+  align-items: flex-start;
+  padding: var(--padding-10xs) var(--padding-7xs);
+  font-size: var(--font-size-sm);
+  color: var(--color-dimgray);
+}
+.names {
+  align-self: stretch;
+  align-items: center;
+  gap: var(--gap-4xs);
+}
+.buildFasterLike {
+  align-self: stretch;
+  position: relative;
+  font-size: var(--font-size-21xl);
+  letter-spacing: 0.02em;
+  line-height: 50px;
+  font-weight: 700;
+  font-family: var(--font-alegreya);
+  color: var(--studio-darkmode-exportbg-1a202e);
+  text-decoration: none;
+}
+.guestheader {
+  align-self: stretch;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-9xs);
+}
+.moreThan100 {
+  align-self: stretch;
+  position: relative;
+  letter-spacing: 0.01em;
+  line-height: 28px;
+}
+.guestdescription,
+.guesttext {
+  align-self: stretch;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.guestdescription {
+  color: var(--studio-darkmode-exportbg-1a202e);
+  font-family: var(--font-roboto);
+}
+.guesttext {
+  gap: var(--gap-5xs);
+  z-index: 0;
+}
+.guesttextareaChild {
+  align-self: stretch;
+  position: relative;
+  border-top: 0.7px solid var(--studio-lightmode-lightseparator-ecf0f6);
+  box-sizing: border-box;
+  height: 0.7px;
+  z-index: 1;
+}
+.justinBenito {
+  font-weight: 600;
+  color: var(--color-dimgray);
+}
+.postedByJustinContainer {
+  height: 23px;
+  width: 289px;
+  position: relative;
+  letter-spacing: -0.04em;
+  display: inline-block;
+  flex-shrink: 0;
+}
+.postedOnSep {
+  height: 16px;
+  position: relative;
+  font-size: var(--font-size-sm);
+  font-family: var(--font-roboto);
+  color: var(--studio-darkmode-normalsolid-icons-96a2be);
+  display: inline-block;
+}
+.articleAuthor {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  z-index: 2;
+  font-size: var(--font-size-lg);
+  color: var(--color-lightsteelblue-200);
+}
+.avatarIcon {
+  width: 98.5px;
+  position: absolute;
+  margin: 0 !important;
+  top: 95.8px;
+  left: -50px;
+  border-radius: 50%;
+  height: 98.5px;
+  object-fit: cover;
+  z-index: 3;
+}
+.guestAuthor,
+.guestarea,
+.guesttextarea {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.guesttextarea {
+  width: 598px;
+  flex-direction: column;
+  padding: var(--padding-29xl) var(--padding-9xl) var(--padding-base)
+    var(--padding-48xl);
+  box-sizing: border-box;
+  position: relative;
+  gap: var(--gap-smi);
+}
+.guestAuthor,
+.guestarea {
+  align-self: stretch;
+}
+.guestarea {
+  text-decoration: none;
+  border-radius: var(--br-3xs);
+  background-color: var(--studio-darkmode-allwhite-ffffff);
+  border: 0.7px solid var(--studio-lightmode-midseparator-dee3eb);
+  overflow: hidden;
+  flex-direction: row;
+  gap: var(--gap-9xs);
+  font-size: var(--font-size-base);
+  color: var(--studio-darkmode-maincta-457eff);
+  font-family: var(--font-source-code-pro);
+}
+.guestAuthor {
+  flex-direction: column;
+  gap: var(--gap-xl);
+  text-align: left;
+  font-size: var(--font-size-5xl);
+  color: var(--studio-darkmode-exportbg-1a202e);
+  font-family: var(--font-roboto);
+}
+@media screen and (max-width: 420px) {
+  .names {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+  .buildFasterLike {
+    font-size: var(--font-size-13xl);
+    letter-spacing: 0.02em;
+    line-height: 42px;
+  }
+}

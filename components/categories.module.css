@@ -1,0 +1,35 @@
+.discoverMoreTopics {
+  align-self: stretch;
+  position: relative;
+  letter-spacing: 0.02em;
+  font-weight: 600;
+}
+.list {
+  flex-direction: column;
+  justify-content: flex-start;
+  gap: var(--gap-xl);
+}
+.blogs,
+.categories,
+.list {
+  align-self: stretch;
+  display: flex;
+  align-items: flex-start;
+}
+.blogs {
+  flex-direction: row;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  font-size: var(--font-size-base);
+  color: var(--studio-darkmode-maincta-457eff);
+  font-family: var(--font-source-code-pro);
+}
+.categories {
+  flex-direction: column;
+  justify-content: flex-start;
+  gap: var(--gap-11xl);
+  text-align: left;
+  font-size: var(--font-size-5xl);
+  color: var(--studio-darkmode-exportbg-1a202e);
+  font-family: var(--font-roboto);
+}

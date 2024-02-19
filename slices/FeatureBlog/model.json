@@ -1,0 +1,29 @@
+{
+  "id": "feature_blog",
+  "type": "SharedSlice",
+  "name": "FeatureBlog",
+  "description": "FeatureBlog",
+  "variations": [
+    {
+      "id": "default",
+      "name": "Default",
+      "docURL": "...",
+      "version": "initial",
+      "description": "Default",
+      "imageUrl": "",
+      "primary": {
+        "blog": {
+          "type": "Link",
+          "config": {
+            "label": "blog",
+            "select": "document",
+            "customtypes": [
+              "article"
+            ]
+          }
+        }
+      },
+      "items": {}
+    }
+  ]
+}

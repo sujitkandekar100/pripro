@@ -1,0 +1,26 @@
+{
+  "id": "editors_pick",
+  "type": "SharedSlice",
+  "name": "EditorsPickSlice",
+  "description": "EditorsPick",
+  "variations": [
+    {
+      "id": "default",
+      "name": "Default",
+      "docURL": "...",
+      "version": "initial",
+      "description": "Default",
+      "imageUrl": "",
+      "primary": {},
+      "items": {
+        "blogs": {
+          "type": "Link",
+          "config": {
+            "label": "blogs",
+            "select": "document"
+          }
+        }
+      }
+    }
+  ]
+}

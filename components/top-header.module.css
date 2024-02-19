@@ -1,0 +1,102 @@
+.locofyGuieLogoIcon {
+  width: 241.7px;
+  position: relative;
+  height: 47px;
+  cursor: pointer;
+}
+.homeIcon {
+  width: 14px;
+  position: relative;
+  height: 13px;
+  object-fit: cover;
+}
+.locofyHome {
+  position: relative;
+  letter-spacing: -0.03em;
+  font-weight: 500;
+}
+.locofyHomeLink {
+  text-decoration: none;
+  height: 46px;
+  border-radius: var(--br-6xl);
+  background-color: var(--studio-darkmode-allwhite-ffffff);
+  border: 1px solid var(--color-dodgerblue-100);
+  box-sizing: border-box;
+  align-items: center;
+  justify-content: flex-start;
+  padding: var(--padding-sm) var(--padding-lgi);
+  gap: var(--gap-7xs);
+  color: inherit;
+}
+.locofyHomeLink:hover {
+  background-color: var(--color-dodgerblue-200);
+  transition: 0.3s;
+}
+.headerLinks,
+.locofyHomeLink,
+.topHeader {
+  display: flex;
+  flex-direction: row;
+}
+.headerLinks {
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-3xs);
+}
+.topHeader {
+  width: 100%;
+  background-color: var(--color-gray-100);
+  align-items: center;
+  justify-content: space-between;
+  padding: var(--padding-7xl) var(--padding-29xl) var(--padding-7xl)
+    var(--padding-17xl);
+  box-sizing: border-box;
+  position: sticky;
+  top: 0;
+  z-index: 2;
+  text-align: right;
+  font-size: var(--font-size-base);
+  color: var(--studio-darkmode-maincta-457eff);
+  font-family: var(--font-source-code-pro);
+}
+@media screen and (max-width: 1200px) {
+  .topHeader {
+    padding-top: var(--padding-lg);
+    padding-bottom: var(--padding-lg);
+    box-sizing: border-box;
+  }
+}
+@media screen and (max-width: 960px) {
+  .homeIcon {
+    transform: scale(1.4);
+    margin-right: 0;
+  }
+  .locofyHome {
+    display: none;
+  }
+  .locofyHomeLink,
+  .topHeader {
+    padding: var(--padding-mid) var(--padding-mini);
+    box-sizing: border-box;
+  }
+  .topHeader {
+    padding: var(--padding-7xs) var(--padding-17xl);
+  }
+}
+@media screen and (max-width: 420px) {
+  .locofyGuieLogoIcon {
+    width: 200px;
+  }
+  .homeIcon {
+    margin-right: 0;
+    transform: scale(1.4);
+  }
+  .locofyHome {
+    display: none;
+  }
+  .locofyHomeLink {
+    display: flex;
+    padding: var(--padding-mini);
+    box-sizing: border-box;
+  }
+}

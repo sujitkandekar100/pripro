@@ -1,0 +1,25 @@
+{
+  "name": "pripro",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "@prismicio/client": "^7.3.1",
+    "@prismicio/next": "^1.5.0",
+    "@prismicio/react": "^2.7.3",
+    "next": "^13.2.4",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "react-router-dom": "^6.2.1"
+  },
+  "devDependencies": {
+    "@slicemachine/adapter-next": "^0.3.35",
+    "slice-machine-ui": "^1.24.0"
+  },
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build && next export -o build/",
+    "start": "next start",
+    "lint": "next lint",
+    "slicemachine": "start-slicemachine"
+  }
+}

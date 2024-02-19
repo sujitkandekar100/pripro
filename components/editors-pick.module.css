@@ -1,0 +1,25 @@
+.editorsPick1 {
+  align-self: stretch;
+  position: relative;
+  letter-spacing: 0.02em;
+  font-weight: 600;
+}
+.cards,
+.editorsPick {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-xl);
+  font-size: var(--font-size-base);
+  color: var(--studio-darkmode-maincta-457eff);
+  font-family: var(--font-source-code-pro);
+}
+.editorsPick {
+  flex-direction: column;
+  text-align: left;
+  font-size: var(--font-size-5xl);
+  color: var(--studio-darkmode-exportbg-1a202e);
+  font-family: var(--font-roboto);
+}

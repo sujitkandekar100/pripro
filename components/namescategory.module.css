@@ -1,0 +1,56 @@
+.all,
+.design {
+  border-radius: var(--br-7xs);
+  border: 1px solid var(--studio-lightmode-placeholders-bac2d6);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: var(--padding-sm) var(--padding-11xl);
+}
+.all {
+  background-color: var(--color-royalblue-100);
+  color: var(--studio-darkmode-maincta-457eff);
+}
+.design {
+  background-color: var(--studio-darkmode-allwhite-ffffff);
+}
+.foundersDiary {
+  position: relative;
+  letter-spacing: -0.02em;
+  line-height: 32px;
+  text-transform: uppercase;
+  font-weight: 600;
+}
+.designtocode,
+.names {
+  display: flex;
+  align-items: center;
+}
+.designtocode {
+  border-radius: var(--br-7xs);
+  background-color: var(--studio-darkmode-allwhite-ffffff);
+  border: 1px solid var(--studio-lightmode-placeholders-bac2d6);
+  flex-direction: column;
+  justify-content: center;
+  padding: var(--padding-sm) var(--padding-11xl);
+}
+.names {
+  align-self: stretch;
+  flex-direction: row;
+  justify-content: flex-start;
+  padding: 0 var(--padding-xs) 0 0;
+  gap: var(--gap-3xs);
+  text-align: left;
+  font-size: var(--font-size-mid);
+  color: var(--studio-darkmode-exportbg-1a202e);
+  font-family: var(--font-source-code-pro);
+}
+@media screen and (max-width: 1200px) {
+  .all,
+  .design {
+    padding-left: var(--padding-base);
+    padding-right: var(--padding-base);
+    box-sizing: border-box;
+  }
+}
